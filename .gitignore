@@ -39,3 +39,32 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# backups
+*.bak
+*.swp
+*.~*
+
+# editor directories
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# logs
+*.log
+logs
+*.log.*
+
+# system
+Thumbs.db
+Desktop.ini
+
+# potential secrets
+secrets.*
+*.key
+*.cert
+*.pem

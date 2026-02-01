@@ -10,6 +10,9 @@ export default function Footer() {
           <a href="/disclaimer">Disclaimer</a>
           <a href="/privacy">Privacy Policy</a>
           <a href="/contact">Contact</a>
+          <a href="https://www.buymeacoffee.com/DENNIS2" target="_blank" rel="noreferrer" style={{ display: "flex", alignItems: "center", gap: 4 }}>
+            ☕ <span style={{ textDecoration: "underline" }}>Buy us a coffee</span>
+          </a>
         </div>
       </div>
       <div className="small" style={{ marginTop: 12, opacity: 0.7 }}>

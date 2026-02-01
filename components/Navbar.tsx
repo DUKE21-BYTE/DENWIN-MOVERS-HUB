@@ -36,6 +36,31 @@ export default function Navbar() {
           <Link className="btn" href="/movers" style={{ padding: "8px 12px", height: "36px", fontSize: "14px", border: "none", background: "transparent", boxShadow: "none" }}>Find Movers</Link>
           <Link className="btn" href="/about" style={{ padding: "8px 12px", height: "36px", fontSize: "14px", border: "none", background: "transparent", boxShadow: "none" }}>About</Link>
           <Link className="btn" href="/contact" style={{ padding: "8px 12px", height: "36px", fontSize: "14px", border: "none", background: "transparent", boxShadow: "none" }}>Contact</Link>
+          
+          <a 
+            href="https://www.buymeacoffee.com/DENNIS2" 
+            target="_blank" 
+            rel="noreferrer"
+            className="btn"
+            title="Buy us a coffee"
+            style={{ 
+              padding: "0 10px", 
+              height: "36px", 
+              display: "flex", 
+              alignItems: "center", 
+              justifyContent: "center",
+              border: "1px solid #FFDD00", 
+              background: "#FFDD00", 
+              color: "black",
+              fontSize: "16px",
+              marginLeft: 4,
+              borderRadius: "50px", // More circular/pill for special icon
+              boxShadow: "0 2px 10px rgba(255, 221, 0, 0.3)"
+            }}
+          >
+            ☕
+          </a>
+
           <Link className="btn btn-primary" href="/add-business" style={{ padding: "8px 16px", height: "36px", fontSize: "14px", marginLeft: 8 }}>List Business</Link>
         </nav>
       </div>

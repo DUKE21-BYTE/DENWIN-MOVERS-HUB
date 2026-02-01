@@ -1,6 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚚 Denwin Movers Hub
 
-## Getting Started
+The #1 Trusted Directory for Verified Movers in Kenya. Find reliable movers in Nairobi, Kiambu, Thika, and more, complete with estimated prices and direct WhatsApp booking.
+
+## ✨ Features
+
+- **Verified Listings:** All movers are manually vetted for authenticity.
+- **Direct Booking:** "Chat on WhatsApp" buttons link directly to movers with a pre-filled quote request.
+- **Price Estimates:** Transparent price ranges for 1-BR, 2-BR, and Transport Only.
+- **SEO Optimized:** Built with Next.js 14 and Semantic HTML for maximum visibility.
+- **Fast & Light:** No database required for the verified MVP version.
+
+## 🚀 Getting Started
 
 First, run the development server:
 
@@ -8,29 +18,41 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ How to Add/Edit Movers
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Data is managed in a local seed file for speed and simplicity.
 
-## Learn More
+1.  Open `data/movers.seed.ts`.
+2.  Add a new entry to the `MOVERS` array:
+    ```typescript
+    {
+      id: "unique-id",
+      county: "Nairobi",
+      name: "New Mover Name",
+      phone: "254700000000", // Start with 254
+      serviceType: "Full Service",
+      status: "verified",    // IMPORTANT for the green badge
+      priceMin: 12000,
+      priceMax: 18000
+    }
+    ```
+3.  Save and commit. the site updates instantly on deployment.
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework:** Next.js 14 (App Router)
+- **Styling:** Custom CSS (Modern, clean, fast)
+- **Icons:** SVG Icons
+- **Hosting:** Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Verified Partner
 
-## Deploy on Vercel
+This project uses a "Verified" badge system. Only movers with `status: "verified"` in the seed data will display the green verified shield.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2026 Denwin Movers Hub

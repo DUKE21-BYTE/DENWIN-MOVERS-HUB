@@ -8,7 +8,7 @@ The #1 Trusted Directory for Verified Movers in Kenya. Find reliable movers in N
 - **Direct Booking:** "Chat on WhatsApp" buttons link directly to movers with a pre-filled quote request.
 - **Price Estimates:** Transparent price ranges for 1-BR, 2-BR, and Transport Only.
 - **SEO Optimized:** Built with Next.js 14 and Semantic HTML for maximum visibility.
-- **Fast & Light:** No database required for the verified MVP version.
+- **Fast & Light:** No database required for the verified version.
 
 ## 🚀 Getting Started
 
